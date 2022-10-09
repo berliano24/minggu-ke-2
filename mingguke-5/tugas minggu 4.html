@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form ekstrakurikuler</title>
+</head>
+<body>
+    <form action="form.php" method="post">
+        <fieldset>
+            <legend><h2>Formulir Pendaftaran Ektrakurikuler</h2></legend>
+            <table>
+                <tr>
+                    <td>NIM</td>
+                    <td>:</td>
+                    <td><input type="number" name="nim" placeholder="NIM"/></td>
+                </tr>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama_lengkap" id="" /></td>
+                </tr>
+                <tr>
+                    <td>Tempat/Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input type="text" name="tempat" id=""><input type="date" name="tanggal_lahir"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio" value="laki-laki" name="jk" id="">laki-laki
+                        <input type="radio" value="perempuan" name="jk" id="">perempuan</td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><input type="text" name="alamat" id="" placeholder="alamat rumah"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="email" name="email" id=""></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kegiatan</td>
+                    <td>:</td>
+                    <td><select name="jenis_kegiatan" id="">
+                        <option value=""></option>
+                        <option value="Basket">Basket</option>
+                        <option value="Volly">Volly</option>
+                        <option value="Futsal">Futsal</option>
+                        <option value="Panahan">Panahan</option>
+                        <option value="Catur">Catur</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Lampirkan Piagam (bila ada)</td>
+                    <td>:</td>
+                    <td><input type="text" name="Lampirkan_Piagam_1" placeholder="piagam"> <br>  <input type="file" name="Lampirkan_piagam_2" id="" placeholder="piagam"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
