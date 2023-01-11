@@ -1,0 +1,1 @@
+alert("Hello,program javascript nih");
